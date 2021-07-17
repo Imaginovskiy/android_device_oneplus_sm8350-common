@@ -29,4 +29,9 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.dot.settings.doze/org.dot.settings.doze.DozeSettingsActivity</string>
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+
+    <!-- Adaptive Charging -->
+    <bool name="config_supportAdaptiveCharging">true</bool>
 </resources>
