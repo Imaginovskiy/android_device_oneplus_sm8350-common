@@ -327,4 +327,7 @@
         <item>258</item>
         <item>259</item>
     </integer-array>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>

@@ -130,7 +130,6 @@ PRODUCT_PACKAGES += \
     audio.primary.lahaina \
     audio.r_submix.default \
     audio.usb.default \
-    audio_amplifier.lahaina \
     audioadsprpcd \
     liba2dpoffload \
     libaudiopreprocessing \
@@ -337,8 +336,8 @@ PRODUCT_PACKAGES += \
     liboffloadhal
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oneplus_lahaina
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.1-service.oneplus_lahaina
 
 # Media
 PRODUCT_COPY_FILES += \
