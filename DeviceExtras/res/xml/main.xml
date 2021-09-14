@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:settings="http://schemas.android.com/apk/res/org.evolution.device.DeviceExtras">
+	xmlns:settings="http://schemas.android.com/apk/res/org.dot.device.DeviceExtras">
 
     <PreferenceCategory
         android:key="slider"
@@ -59,7 +59,7 @@
             android:summary="@string/ambient_display_gestures_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetClass="org.evolution.device.DeviceExtras.DozeSettingsActivity" />
+                    android:targetClass="org.dot.device.DeviceExtras.DozeSettingsActivity" />
         </Preference>
 
         <Preference
@@ -70,8 +70,8 @@
             android:summary="@string/kcal_enabled_summary">
             <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="org.evolution.device.DeviceExtras.kcal.KCalSettingsActivity"
-                android:targetPackage="org.evolution.device.DeviceExtras.kcal" />
+                android:targetClass="org.dot.device.DeviceExtras.kcal.KCalSettingsActivity"
+                android:targetPackage="org.dot.device.DeviceExtras.kcal" />
        </Preference>
 
         <SwitchPreference
@@ -100,7 +100,7 @@
             android:title="@string/auto_hbm_title"
             android:summary="@string/auto_hbm_summary" />
 
-        <org.evolution.device.DeviceExtras.AutoHBMThresholdPreference
+        <org.dot.device.DeviceExtras.AutoHBMThresholdPreference
             android:key="auto_hbm_threshold"
             android:icon="@drawable/ic_autohbm_threshold"
             android:title="@string/auto_hbm_threshold_title"
@@ -143,7 +143,7 @@
         android:key="vibrator"
         android:title="@string/category_vibrator">
 
-        <org.evolution.device.DeviceExtras.CustomSeekBarPreference
+        <org.dot.device.DeviceExtras.CustomSeekBarPreference
             android:key="vib_strength"
             android:icon="@drawable/ic_vibration"
             android:title="@string/vib_strength_title_head"
